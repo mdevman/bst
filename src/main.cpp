@@ -6,9 +6,9 @@
  */
 
 
-# include <iostream>
+#include<iostream>
 using namespace std;
-# include "bst.h";
+#include "bst.h"
 
 int main()
 {
@@ -32,7 +32,7 @@ int main()
 	}
 
 	//print tree
-	bst.display(BST::Preorder);
+	bst.display(BST::PreOrder);
 	bst.display(BST::Inorder);
 	bst.display(BST::Postorder);
 

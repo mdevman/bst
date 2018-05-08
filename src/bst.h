@@ -44,10 +44,7 @@ public:
 	}
 	*/
 
-	void display()
-	{
-		display(TraversalType tType);
-	}
+	void display(TraversalType tType);
 
 	virtual ~BST();
 
